@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/forecasty/static/css/main.50ad9b5e.chunk.css",
+    "main.js": "/forecasty/static/js/main.37a37faa.chunk.js",
+    "main.js.map": "/forecasty/static/js/main.37a37faa.chunk.js.map",
+    "runtime-main.js": "/forecasty/static/js/runtime-main.c6185068.js",
+    "runtime-main.js.map": "/forecasty/static/js/runtime-main.c6185068.js.map",
+    "static/css/2.d9ad5f5c.chunk.css": "/forecasty/static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.15d125ef.chunk.js": "/forecasty/static/js/2.15d125ef.chunk.js",
+    "static/js/2.15d125ef.chunk.js.map": "/forecasty/static/js/2.15d125ef.chunk.js.map",
+    "index.html": "/forecasty/index.html",
+    "precache-manifest.542c99c3293cf29d9793ebffa44297f8.js": "/forecasty/precache-manifest.542c99c3293cf29d9793ebffa44297f8.js",
+    "service-worker.js": "/forecasty/service-worker.js",
+    "static/css/2.d9ad5f5c.chunk.css.map": "/forecasty/static/css/2.d9ad5f5c.chunk.css.map",
+    "static/css/main.50ad9b5e.chunk.css.map": "/forecasty/static/css/main.50ad9b5e.chunk.css.map",
+    "static/js/2.15d125ef.chunk.js.LICENSE.txt": "/forecasty/static/js/2.15d125ef.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c6185068.js",
+    "static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.15d125ef.chunk.js",
+    "static/css/main.50ad9b5e.chunk.css",
+    "static/js/main.37a37faa.chunk.js"
+  ]
+}
