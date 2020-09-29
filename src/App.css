@@ -107,7 +107,7 @@ span {
 /* Small Devices */
 @media (min-width: 576px) and (max-width: 767.98px) {
   .container {
-    min-height: 36rem;
+    min-height: 33rem;
   }
   .weather-data__property {
     margin: 0 1rem;
