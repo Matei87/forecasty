@@ -1,25 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
+import GlobalState from './context/GlobalState';
+import Header from './components/Header/Header';
+import Time from './components/Time/Time';
+import Form from './components/Form/Form';
+import Data from './components/Data/Data';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <GlobalState>
+      <div className="container">
+        <Header />
+        <Time />
+        <Form />
+        <Data />
+      </div>
+    </GlobalState>
   );
 }
 

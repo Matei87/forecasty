@@ -1,38 +1,115 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%; width: 100%;
+  font-size: 10px !important;
+}
+
+body { 
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 400 !important;
+  line-height: 1.6 !important;
+  background-color: #FF8A80 !important;
+  padding-bottom: 2rem !important;
+}
+
+a:hover, a:active {
+  color: #FF8A80;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+span {
+  display: inline !important;
+}
+
+.container {
+  background-color: white;
+  min-height: 45rem;
+  box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75);
+  margin: 0 auto;
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 3px;
+  overflow: hidden;
+  padding: 0 !important;
+}
+.header {
   text-align: center;
+  border: transparent;
+  background-color: #E53935;
+  padding: 2rem 3rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.header-title {
+  font-weight: 600;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.clock {
+  text-align: center;
+  margin: 2rem 0;
+  color: darkred;
+}
+.weather-data {
+  text-align: center;
+  margin-top: 2rem;
+}
+.weather-data__city {
+  color: #E53935;
+}
+.weather-data__box {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3.5rem;
+}
+.weather-data__property {
+  margin: 0 3rem;
+}
+.weather-data__title {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.weather-data__value {
+  color: #E53935;
+  font-size: 4rem;
+  line-height: 0.6;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+
+/* MEDIA QUERIES */
+/* Extra Small Devices */
+@media (max-width: 575.98px) {
+  .container {
+    width: 90% !important;
+    min-height: 45rem;
   }
-  to {
-    transform: rotate(360deg);
+  .weather-data__value {
+    font-size: 2.5rem;
+  }
+  .weather-data__property {
+    margin: 0 1rem;
+  }
+}
+/* Small Devices */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .container {
+    min-height: 36rem;
+  }
+  .weather-data__property {
+    margin: 0 1rem;
   }
 }
