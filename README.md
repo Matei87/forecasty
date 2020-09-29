@@ -1,6 +1,6 @@
 # Forecasty
 
-Forecasty is a small weather app.
+Forecasty is a small React context api weather app.
 
 # Built With
 
