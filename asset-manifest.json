@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/forecasty/static/css/main.f94d595c.chunk.css",
+    "main.css": "/forecasty/static/css/main.f75485dd.chunk.css",
     "main.js": "/forecasty/static/js/main.37a37faa.chunk.js",
     "main.js.map": "/forecasty/static/js/main.37a37faa.chunk.js.map",
     "runtime-main.js": "/forecasty/static/js/runtime-main.c6185068.js",
@@ -9,17 +9,17 @@
     "static/js/2.15d125ef.chunk.js": "/forecasty/static/js/2.15d125ef.chunk.js",
     "static/js/2.15d125ef.chunk.js.map": "/forecasty/static/js/2.15d125ef.chunk.js.map",
     "index.html": "/forecasty/index.html",
-    "precache-manifest.728e74eea0850c07fee1c1f3e6c332f4.js": "/forecasty/precache-manifest.728e74eea0850c07fee1c1f3e6c332f4.js",
+    "precache-manifest.4aae20742350d130b8a07d6aebb50121.js": "/forecasty/precache-manifest.4aae20742350d130b8a07d6aebb50121.js",
     "service-worker.js": "/forecasty/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/forecasty/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.f94d595c.chunk.css.map": "/forecasty/static/css/main.f94d595c.chunk.css.map",
+    "static/css/main.f75485dd.chunk.css.map": "/forecasty/static/css/main.f75485dd.chunk.css.map",
     "static/js/2.15d125ef.chunk.js.LICENSE.txt": "/forecasty/static/js/2.15d125ef.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c6185068.js",
     "static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.15d125ef.chunk.js",
-    "static/css/main.f94d595c.chunk.css",
+    "static/css/main.f75485dd.chunk.css",
     "static/js/main.37a37faa.chunk.js"
   ]
 }
