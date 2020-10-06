@@ -14,7 +14,6 @@ const GlobalState = (props) => {
             if (!e) {
                 return setError('Please enter the name of the city !'), setMain(null);
             }
-            const API_KEY = '99c761bf3c43e7d491ccf9d3610ca963';
             const url = `https://api.openweathermap.org/data/2.5/weather?q=${e}&appid=${process.env.REACT_APP_API_KEY}`;
             const request = axios.get(url);
             const response = await request;
